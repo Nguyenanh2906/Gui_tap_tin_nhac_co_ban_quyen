@@ -1,7 +1,7 @@
-# Gui_tap_tin_nhac_co_ban_quyen
+## Gui_tap_tin_nhac_co_ban_quyen
  Một nhà phát triển ứng dụng âm nhạc gửi file song.mp3 đến nền tảng phát trực tuyến, kèm metadata bản quyền được  mã hóa riêng để bảo vệ quyền sở hữu. File được mã hóa bằng Triple DES và ký số để đảm bảo an toàn, với tính toàn  vẹn được kiểm tra để ngăn chặn giả mạo.
 
-1. GIỚI THIỆU
+# 1. GIỚI THIỆU
 
 Trong thời đại chuyển đổi số, việc truyền tải nội dung số như âm nhạc cần đảm bảo các yếu tố về bản quyền, bảo mật và xác thực. Nếu không có các biện pháp bảo vệ, file nhạc có thể bị đánh cắp, chỉnh sửa hoặc phát tán trái phép.
 
@@ -17,7 +17,7 @@ Trong thời đại chuyển đổi số, việc truyền tải nội dung số 
 
 - Hệ thống mô phỏng mô hình truyền dữ liệu giữa nhà phát triển và nền tảng phát nhạc.
 
-2. TRÌNH BÀY KỸ THUẬT
+# 2. TRÌNH BÀY KỸ THUẬT
    
 a. Kiến trúc hệ thống
 - Mô hình: Client – Server đơn giản mô phỏng vai trò:
@@ -83,7 +83,7 @@ d. Thử nghiệm & kết quả
 
 - Hệ thống giải mã đúng file gốc, bảo toàn toàn vẹn và xác thực.
 
-3. CẤU TRÚC THƯ MỤC
+# 3. CẤU TRÚC THƯ MỤC
 ```
 COPYRIGHTMUSICTRANSFER/
 ├── __pycache__/              # File tạm biên dịch Python
@@ -101,7 +101,7 @@ COPYRIGHTMUSICTRANSFER/
 └── README.MD                 # Tài liệu mô tả hệ thống 
 ```
 
-4. CÁCH CÀI ĐẶT VÀ CHẠY
+# 4. CÁCH CÀI ĐẶT VÀ CHẠY
 a. Yêu cầu
 Python ≥ 3.8
 
