@@ -83,8 +83,25 @@ d. Thử nghiệm & kết quả
 
 - Hệ thống giải mã đúng file gốc, bảo toàn toàn vẹn và xác thực.
 
+3. CẤU TRÚC THƯ MỤC
+```
+COPYRIGHTMUSICTRANSFER/
+├── __pycache__/              # File tạm biên dịch Python
+├── instance/
+│   └── music_transfer.db     # CSDL SQLite lưu thông tin gửi/nhận
+├── static/                   # File tĩnh cho giao diện web
+│   ├── app.js                # JavaScript xử lý front-end
+│   └── style.css             # Giao diện CSS
+├── templates/                # Giao diện HTML Flask
+├── uploads/                  # Lưu file nhạc đã mã hóa/giải mã
+├── app.py                    # Flask app chính, định nghĩa route & xử lý logic
+├── crypto_utils.py           # Mã hóa: RSA, 3DES, DES, SHA-512
+├── secure_protocol.py        # Giao thức bảo mật, đóng gói/gỡ gói tin
+├── main.py                   # Chạy app + tạo DB
+└── README.MD                 # Tài liệu mô tả hệ thống 
+```
 
-3. CÁCH CÀI ĐẶT VÀ CHẠY
+4. CÁCH CÀI ĐẶT VÀ CHẠY
 a. Yêu cầu
 Python ≥ 3.8
 
