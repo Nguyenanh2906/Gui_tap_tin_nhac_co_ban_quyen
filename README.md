@@ -33,7 +33,7 @@ a. Kiến trúc hệ thống
 b. Thành phần kỹ thuật
 - Triple DES (3DES):
 
-  + Mã hóa đối xứng 3 vòng, sử dụng CBC mode và padding PKCS7.
+  + Mã hóa đối xứng 3 vòng
   
   + Tạo IV ngẫu nhiên cho mỗi lần mã hóa file.
 
@@ -69,15 +69,7 @@ c. Các module chính
 ⚙️ Công nghệ: Flask, cryptography, base64, hashlib, SQLAlchemy, uuid.
 
 d. Thử nghiệm & kết quả
-- Thử nghiệm thành công với nhiều tập tin song.mp3 dung lượng 1–20 MB.
-
-- Giao diện người gửi nhập metadata, hệ thống tạo gói tin mã hóa đúng đặc tả.
-
-- Giao diện người nhận hiển thị trạng thái xác minh: Đã nhận, Đã xác thực, hoặc Sai hash.
-
-- Thử cố ý sai hash/chữ ký → hệ thống từ chối và gửi phản hồi NACK.
-
-- Hệ thống giải mã đúng file gốc, bảo toàn toàn vẹn và xác thực.
+![image](https://github.com/user-attachments/assets/ad87f709-42b3-486a-a1b7-f92dc93a8ef0)
 
 ### 3. CẤU TRÚC THƯ MỤC
 ```
