@@ -69,7 +69,18 @@ c. Các module chính
 ⚙️ Công nghệ: Flask, cryptography, base64, hashlib, SQLAlchemy, uuid.
 
 d. Kết quả
-![image](https://github.com/user-attachments/assets/ad87f709-42b3-486a-a1b7-f92dc93a8ef0)
+- Giao diện trang chủ
+![image](https://github.com/user-attachments/assets/1bf0fd03-90e3-4c02-a016-27edd619793e)
+- Giao diện trang người gửi
+![image](https://github.com/user-attachments/assets/c1e067ef-7baa-4e50-b1fa-bb2cf703ffce)
+- Giao diện hiển thị lịch sử file gửi
+![image](https://github.com/user-attachments/assets/d6a39899-491e-4dde-86e5-af9ccc532650)
+- Giao diện trang người nhận
+![image](https://github.com/user-attachments/assets/5f5b4b51-5ca6-4806-b76e-9f7ca33712a5)
+- Giao diện trang quản lý tập tin
+![image](https://github.com/user-attachments/assets/0ab1e7d7-9ee3-47a0-9bf0-be49d4955989)
+- Giao diện trang xử lý kết nối
+![image](https://github.com/user-attachments/assets/c1c3e5fb-8e5a-4d02-89b8-28ca808ae8e7)
 
 ### 3. CẤU TRÚC THƯ MỤC
 ```
