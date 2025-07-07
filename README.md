@@ -68,7 +68,7 @@ c. Các module chính
 
 ⚙️ Công nghệ: Flask, cryptography, base64, hashlib, SQLAlchemy, uuid.
 
-d. Thử nghiệm & kết quả
+d. Kết quả
 ![image](https://github.com/user-attachments/assets/ad87f709-42b3-486a-a1b7-f92dc93a8ef0)
 
 ### 3. CẤU TRÚC THƯ MỤC
