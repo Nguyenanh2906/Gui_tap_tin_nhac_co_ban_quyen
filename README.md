@@ -28,11 +28,7 @@ a. Kiến trúc hệ thống
 
 - Luồng xử lý:
 
-    + Handshake: gửi "Hello!", nhận "Ready!".
- 
-    + Trao đổi khóa: gửi khóa phiên Triple DES đã mã hóa bằng RSA.
- 
-    + Gửi gói tin: chứa file mã hóa, metadata mã hóa, chữ ký, hash, khóa mã hóa.
+![image](https://github.com/user-attachments/assets/a4979048-02c2-428c-a6a3-a46b02f7369c)
 
 b. Thành phần kỹ thuật
 - Triple DES (3DES):
